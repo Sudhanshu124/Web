@@ -1,0 +1,90 @@
+.main{
+	background: url("AAG_Lobby_Closeup.jpg.jpg");
+	height:620px;
+	margin-top: -80px;
+	background-position: center;
+}
+
+.navbar-default
+{
+	background-color: rgba(0,0,0,0.0);
+	border-color: rgba(0,0,0,0.0);
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	color: white;
+}
+.center{
+	background: rgba(242,242,242,0.7);
+	margin: 150px 100px;
+	height: 200px;
+	width: 1000px;
+}
+.center-two{
+	background: rgba(242,242,242,0.0);
+	margin: 100px 100px;
+}
+form
+{
+	background: rgba(242,242,242,0);
+}
+
+footer{
+			background: black;
+			height: 250px;
+			width: 1354px;
+			margin-left: -110px;
+		}
+		.footer-p1{
+			/*padding-top: 30px;*/
+			padding: 20px 0px 10px 5px;
+			color: white;
+			font-size: 17px;
+		}
+		.footer-hr{
+			width: 1250px;
+			margin-top: -10px;
+		}
+		.footer-h2-one{
+			opacity: 0.5;
+			background-color: rgba(0,0,0,0.8);
+		}
+		.footer-h2{
+			color: snow;
+			padding: 20px 0 0 18px;
+		}
+		.footer-a-all{
+			text-align:  right;
+			padding: 30px 10px 10px 10px;
+		}
+		.footer-a1{
+			border-right: 1px solid white;
+			padding-left: 8px;
+			padding-right: 8px;
+			font-size: 15px;
+			color:  white;
+		}
+		.footer-a1-l{
+			border-right: 0px;
+		}
+		.footer-input{
+			padding: 10px;
+			/*margin-left: 5px;*/
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom:20px;
+			font-size: 18px;
+			background: #3D4039;
+			border: 0;
+			color: snow;
+		}
+		.footer-h4{
+			color: white;
+			padding-top: 10px;
+		}
+
+		.btn-footer{
+			background-color: rgb(225,25,30);
+			margin-bottom: 30px;
+		}

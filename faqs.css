@@ -1,0 +1,98 @@
+.navbar-default{
+			background-color: #0012ff;
+			color: cyan;
+			height: 90px;
+			padding-top: 20px;
+
+		}
+		.navbar-default .navbar-nav > li > a{
+			color: black;
+			font-size: 15px;
+			font-family: "Oswald";
+			font-weight: bold;
+			font-style: normal;
+		}
+
+		.navbar-default .navbar-brand{
+			color: #f03737ed;
+			text-transform: uppercase;
+			font-size:  29px;
+			font-weight: bolder;
+			font-family: "Racing Sans One";
+		}
+
+/*	navbar */
+
+/*	faqs   */
+
+	#faqs-con{
+		padding: 0 200px 70px 200px;
+	}
+	.faqs-h3{
+		font-family:cookie;
+		font-size: 45px;
+		padding: 20px 0;
+		/*font-weight: ;*/
+	}
+	.faqs-p{
+		font-family:Oswald;
+		font-size: 18px;
+		/*font-weight: bold;*/
+	}
+
+footer{
+			background: black;
+			height: 250px;
+		}
+		.footer-p1{
+			/*padding-top: 30px;*/
+			padding: 20px 0px 10px 5px;
+			color: white;
+			font-size: 17px;
+		}
+		.footer-hr{
+			width: 1150px;
+			margin-top: -10px;
+		}
+		.footer-h2-one{
+			opacity: 0.5;
+			background-color: rgba(0,0,0,0.8);
+		}
+		.footer-h2{
+			color: snow;
+			padding: 20px 0 0 18px;
+		}
+		.footer-a-all{
+			text-align:  right;
+			padding: 30px 10px 10px 10px;
+		}
+		.footer-a1{
+			border-right: 1px solid white;
+			padding-left: 8px;
+			padding-right: 8px;
+			font-size: 15px;
+			color:  white;
+		}
+		.footer-a1-l{
+			border-right: 0px;
+		}
+		.footer-input{
+			padding: 10px;
+			/*margin-left: 5px;*/
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom:20px;
+			font-size: 18px;
+			background: #3D4039;
+			border: 0;
+			color: snow;
+		}
+		.footer-h4{
+			color: white;
+			padding-top: 10px;
+		}
+
+		.btn-footer{
+			background-color: rgb(225,25,30);
+			margin-bottom: 30px;
+		}

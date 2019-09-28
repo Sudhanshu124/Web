@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script>
+var slideIndex = 0;
+carousel();
+
+
+
+</script>
+<style>
+.item1{
+	grid-area: item1;
+	<!-font-size: 150px;> 
+padding-bottom:10px;
+color: black;
+}
+.item6 { grid-area: item6; padding:20px;}
+.item7 { grid-area: item7; padding:20px;}
+.item8 { grid-area: item8; padding:20px;}
+.item9 { grid-area: item9; padding:20px;}
+.item10 { grid-area: item10; padding:20px;}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'item1 item1 item1 item1 item1 item1'
+    'item2 item2 item2 item2 item2 item2'
+    'item3 item3 item3 item3 item3 item3'
+    'item4 item4 item4 item4 item4 item4'
+    'item5 item5 item5 item5 item5 item5'
+    'item6 item6 item7 item7 item8 item8'
+	'item9 item9 item9 item10 item10 item10';
+}
+.grid-container > div {
+color:white;
+font-family:'Roboto', bold;
+  text-align: center;
+}
+#a
+{
+color:#761804;
+width:75%;
+padding:20px;
+}
+.item5{
+	grid-area: item5;
+	font-size: 50px; 
+padding-bottom:200px;
+font-size:30px;
+}
+.item2{grid-area: item2;}
+.item4{grid-area: item4;}
+.item3{grid-area: item3;}
+.item6{grid-area: item6;}
+.item7{grid-area: item7;}
+.item8{grid-area: item8;}
+.item9{grid-area: item9;}
+.item10{grid-area: item10;}
+#rns
+{
+font-family:'Open Sans';
+font-size:40px;
+}
+a
+{
+	color:aqua;
+font-size:30px;
+padding-left:80px;
+font-weight:bold;
+font-family:'Open Sans';	
+text-decoration:none;
+}
+.item6
+{
+	grid-area: item5;
+}
+body
+{
+background-image:url("hotelback.jpg");
+background-size:cover;
+background-attachment: fixed;  }
+p
+{
+font-family:'Open Sans';
+font-style:regular;
+//font-weight:bold;
+font-size:20px;
+color:#ffffff;  }
+</style>
+</head>
+<body>
+<div class="grid-container">
+
+<div class="item1">
+
+<div style="background-color:rgba(0,0,0,0);margin-top:-100px;padding-bottom:-145px;">
+	 <img  src="logo.png" width="450px" height="430px"> </div>
+	<center>
+<div style="border-radius:95px;margin-top:-5%;margin-bottom:5%;font-size:60px;font-weight:bold; background: rgba(168, 24, 104, 0.6) ;width:85%;"> 
+ROOMS: MODERNITY AND COMFORT</div>
+</center>
+
+</div>
+<div class="item2">
+<center>
+	<div class="w3-content w3-section" style="max-width:900px">
+  <img class="mySlides" src="room2.jpg" width="850px" height="500px">
+  <img class="mySlides" src="room1.jpg" width="850px" height="500px">
+  <img class="mySlides" src="room3.jpg" width="850px" height="500px">
+  <img class="mySlides" src="room4.jpg" width="850px" height="500px">
+  <img class="mySlides" src="room5.jpg" width="850px" height="500px">
+</center>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+	</div>
+<div class="item3">
+	<center>
+		<p id="rns" style="color:aqua;"><b>---- ROOMS AND SUITES ----</b></p>
+	</center>
+
+</div>
+<div class="item4">
+	<center>
+		<p id="text">An air of elegance and sophistication pervades every room owing to warm hues,<br> textured furnishings, timber flooring, etched back-painted glass and a <br> large cushioned sofa and an executive work station.</p>
+	</center>
+</div>
+
+
+<div class="item5" style="background-color:rgba(0,0,0,0);margin-top:20px;padding-bottom:15px;margin-left:-80px;">
+
+</div>
+<div class="item6" > 
+<center>
+<div id="a"style=" background: rgba(13,212 , 206, 0.7) "> <p style="color:black;font-family:'Roboto';"><u><b>LUXURY SUITES</b></u></p><br>
+
+<img id="image" src="luxury suits.jpg" width="450px" height="250px"><br>
+<p style="color:white;font-family:'Open Sans';font-size:18px;">
+Spacious, chic and contemporary interiors with panoramic views.<br>
+BEDS:            1 King Size Bed<br>
+VIEW:	            Garden View or Airport View<br>
+SIZE:	            775 sq. feet<br>
+SIGNATURE HIGHLIGHT:	Large bedroom,living room and bathroom</p>
+<div id="item6a">
+<center><br>
+	<a href="b.html" style="background-color:rgba(0,2,0,1);padding-bottom:10px;padding-top:10px;padding-left:9px;padding-right:9px;font-family:'Roboto';">BOOK THIS ROOM</a></center>
+</div>
+</div>
+</center></div>
+
+ <div class="item7">
+<center>
+<div id="a" style=" background: rgba(55, 210, 228, 0.7) "><p style="color:black;font-family:'Roboto';"><u><b>PRESIDENTIAL SUITE</b></u></p><br>
+<img id="image" src="presidential-suite.jpg" width="350px" height="200px"> <br>
+<p style="color:white;font-family:'Open Sans';font-size:18px;">
+Sprawling suite with contemporary yet ethnic decor and spectacular views.<br>
+
+BEDS:	1 King Size Bed<br>
+VIEW:	Garden View <br>
+SIZE:	1536 sq. feet<br>
+SIGNATURE HIGHLIGHT: Living room, dining room and attached two bedrooms</p>
+<div id="item6a">
+<center><br>
+	<a href="b.html" style="background-color:rgba(0,2,0,1);padding-bottom:10px;padding-top:10px;padding-left:9px;padding-right:9px;font-family:'Roboto';">BOOK THIS ROOM</a></center>
+</div>
+</div>
+</div>  
+<div class="item8">
+<center>
+<div id="a" style=" background: rgba(102, 243, 222, 0.7) "><p style="color:black;font-family:'Roboto';"><u><b>DELUXE ROOMS</b></u></p><br>
+<img id="image" src="deluxe rooms.jpg" width="350px" height="200px"><br>
+<p style="color:white;font-family:'Open Sans';font-size:18px;">
+Elegant and well-lit with beautiful and soothing views.<br>
+
+BEDS:	1 King Size Bed<br>
+VIEW:	Garden View <br>
+SIZE:	379 sq. feet<br>
+SIGNATURE HIGHLIGHT: 3 fixture bath room with Rain shower cubicle.</p>
+<div id="item6a">
+<center><br>
+	<a href="b.html" style="background-color:rgba(0,2,0,1);padding-bottom:10px;padding-top:10px;padding-left:9px;padding-right:9px;font-family:'Roboto';">BOOK THIS ROOM</a></center>
+</div>
+</div></center>
+</div>
+<div class="item9"> 
+<center>
+<div id="a" style=" background: rgba(57,190,216, 0.7) "> <p style="color:black;font-family:'Roboto';"><u><b>LUXURY ROOMS</u></b></p><br>
+
+<img id="image" src="luxury rooms.jpg" width="350px" height="200px"><br>
+<p style="color:white;font-family:'Open Sans';font-size:18px;">
+Stylish with warm lighting and mesmerizing views.<br>
+
+BEDS:	1 King Size Bed<br>
+VIEW:	Garden View <br>
+SIZE:	420 sq. feet<br>
+4 fixture bath room with Rain shower cubicle & bathtub.</p>
+<div id="item6a">
+<center><br>
+	<a href="b.html" style="background-color:rgba(0,2,0,1);padding-bottom:10px;padding-top:10px;padding-left:9px;padding-right:9px;font-family:'Roboto';">BOOK THIS ROOM</a></center>
+</div>
+</div>
+</center></div>
+<div class="item10"> 
+<center>
+<div id="a" style=" background: rgba(89,211,208, 0.7) "> <p style="color:black;font-family:'Roboto';"><u><b>SNAP CLUB ROOMS</u></b></p><br>
+
+<img id="image" src="taj club rooms.jpg" width="350px" height="200px"><br>
+<p style="color:white;font-family:'Open Sans';font-size:18px;">Sprawling rooms with ethnic décor, modern comforts and great views<br>
+
+BEDS:	1 King Size Bed<br>
+VIEW:	Garden View <br>
+SIZE:	420 sq. feet<br>
+SIGNATURE HIGHLIGHT: Exclusive Club Lounge access.</p>
+<div id="item6a">
+<center><br>
+	<a href="b.html" style="background-color:rgba(0,2,0,1);padding-bottom:10px;padding-top:10px;padding-left:9px;padding-right:9px;font-family:'Roboto';">BOOK THIS ROOM</a></center>
+</div>
+</div>
+</center></div>
+</body>
+</html>
